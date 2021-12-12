@@ -1,10 +1,10 @@
+// Goal: Print the cat breed name to console.
+
 // importing fetch
 const fetch = (...args) =>
   import("node-fetch").then(({ default: fetch }) => fetch(...args));
 
-// Goal: Print the cat breed name to console.
-
-// with Async Await
+  // with Async Await
 
 // const catJSONGetter = async () => {
 //   try {
